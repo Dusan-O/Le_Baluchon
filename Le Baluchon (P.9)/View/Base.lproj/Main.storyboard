@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6No-g7-5Ij">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6No-g7-5Ij">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -160,7 +160,7 @@
                                                     <constraint firstAttribute="width" constant="414" id="RFN-Xu-b7a"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strasbourg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4k-81-UXM">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paris" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4k-81-UXM">
                                                 <rect key="frame" x="28" y="451" width="358" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="GOK-32-fWA"/>
@@ -253,6 +253,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.58431375029999999" green="0.89411771299999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="KTS-gq-Wwn" firstAttribute="top" secondItem="gYz-FQ-xY3" secondAttribute="top" id="dzJ-a5-IP9"/>
                                     <constraint firstItem="KTS-gq-Wwn" firstAttribute="width" secondItem="gYz-FQ-xY3" secondAttribute="width" id="soA-vM-xcQ"/>
@@ -271,7 +272,9 @@
                             <constraint firstItem="gYz-FQ-xY3" firstAttribute="top" secondItem="pWn-6S-I4S" secondAttribute="top" id="sLU-a8-buy"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Météo" image="sun.haze.fill" catalog="system" id="0g8-ua-0gg"/>
+                    <tabBarItem key="tabBarItem" title="Météo" image="sun.haze.fill" catalog="system" id="0g8-ua-0gg">
+                        <color key="badgeColor" red="0.58431375029999999" green="0.89411771299999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Météo" id="Aqa-JL-vYr"/>
                     <connections>
                         <outlet property="dateLabel" destination="sbC-ZM-CsI" id="sDz-LX-i3A"/>
@@ -404,7 +407,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aRc-6P-J88"/>
-                        <color key="backgroundColor" red="0.91490215060000002" green="0.91779029369999998" blue="0.94338053460000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.58431375029999999" green="0.89411771299999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="3AS-S6-D6B" firstAttribute="trailing" secondItem="aRc-6P-J88" secondAttribute="trailing" id="EWi-bT-X1m"/>
@@ -556,7 +559,7 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taux de change !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-ss-1Oh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taux de change" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tzx-ss-1Oh">
                                 <rect key="frame" x="20" y="56" width="374" height="25"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="22"/>
                                 <color key="textColor" red="0.2104147375" green="0.2656084299" blue="0.40976843239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -564,7 +567,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ogc-fm-WfJ"/>
-                        <color key="backgroundColor" red="0.91490215060000002" green="0.91779029369999998" blue="0.94338053460000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.58431375029999999" green="0.89411771299999998" blue="0.98823523520000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="uAL-MU-DkA" firstAttribute="leading" secondItem="ogc-fm-WfJ" secondAttribute="leading" id="0p6-Wr-gba"/>
